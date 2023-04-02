@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    
+     <!-- Remote -->
+<remote name="ImSurajxD"
+		   fetch="https://gitlab.com/ImSurajxD" />
+        <remote name="clang"
+          fetch="https://gitlab.com/arrowos-project" />	
+
+<!-- Device Trees -->
+  <project path="device/xiaomi/santoni" name="xddeath69/device_santoni" remote="github" revision="13-staging" />
+
+    <!-- Vendor Trees -->
+  <project path="vendor/xiaomi/santoni" name="xddeath69/vendor_xiaomi_santoni" remote="github" revision="13.0" />
+
+   <!-- Kernel Trees -->
+<project path="kernel/xiaomi/santoni" name="xddeath69/kernel_xiaomi_santoni" remote="github" revision="13.0-CAF" />
+		
+	<!-- CLANG -->
+  <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="arrowos-project/android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="gitlab" revision="master" /> 
+<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
+
+</manifest>
